@@ -1,0 +1,28 @@
+Database Schema Design Question: 
+
+Event Management System with User Reviews
+You are tasked with designing a relational database schema for an event management system that allows event organizers to create and manage events while enabling users to review and comment on events. The system should support event creation, venue management, user interactions, and structured event-related data.
+
+Key Requirements:
+1. Event Creation & Management:
+    Organizers can create, edit, and delete events.
+    Each event has a name, description, start date, end date, time, and venue details.
+    Events should track their status (e.g., Upcoming, Ongoing, Completed, Canceled).
+2. Event Organizers:
+    Organizers should be able to manage multiple events.
+    An organizer profile includes name, contact details, and organization name.
+    Each event is associated with one or more organizers.
+3. Event Venues & Locations:
+    Each event takes place at a venue with a name, address, city, and capacity.
+    Venues can host multiple events but should not exceed their capacity.
+4. Users & Interactions:
+    Users can register, log in, and manage their profiles.
+    Users can view event details and leave reviews & comments.
+    A user can rate an event (e.g., 1-5 stars) and provide written feedback.
+    Users can edit or delete their comments within a certain timeframe.
+
+
+
+
+
+
